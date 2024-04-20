@@ -1,6 +1,6 @@
 <!-- Dodanie YouTube Iframe API -->
 <script src="https://www.youtube.com/iframe_api"></script>
-
+console.log('Hello');
 <script>
 // Definicja globalnej zmiennej do przechowywania instancji odtwarzacza
 var player;
