@@ -1,10 +1,10 @@
 <!-- Dodanie YouTube Iframe API -->
 <script src="https://www.youtube.com/iframe_api"></script>
-console.log('Hello');
+
 <script>
 // Definicja globalnej zmiennej do przechowywania instancji odtwarzacza
 var player;
-
+console.log('Hello');
 // Funkcja wywoływana przez YouTube API po załadowaniu
 function onYouTubeIframeAPIReady() {
     var iframe = document.querySelector('.iframe-fluid'); // Znajdź iframe z wideo
